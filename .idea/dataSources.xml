@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="SQLite - store_manager.sqlite" uuid="677b9279-9fda-4eaa-b6d6-b6c706dc0d6b">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/src/app/db/store_manager.sqlite</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="store_management" uuid="3bebed39-6397-418a-9646-b2883f2e3dee">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\咸鱼软件项目\20231102英文版门店系统\StoreManagementSystem\src\app\db\store_management.sqlite</jdbc-url>
+    </data-source>
+  </component>
+</project>

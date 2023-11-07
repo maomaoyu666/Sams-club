@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.91" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.manager.pages.orders.AddOrdersController">
+    <children>
+        <BorderPane layoutX="14.0" layoutY="14.0">
+            <top>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Add new order" BorderPane.alignment="CENTER_LEFT">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+            </top>
+         <bottom>
+                <GridPane alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="350.0" minWidth="10.0" prefWidth="148.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="603.0" minWidth="10.0" prefWidth="201.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="603.0" minWidth="10.0" prefWidth="43.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="603.0" minWidth="10.0" prefWidth="130.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                  <RowConstraints maxHeight="194.0" minHeight="10.0" prefHeight="106.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="194.0" minHeight="10.0" prefHeight="94.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <Label prefHeight="0.0" prefWidth="65.0" text="Item Name" />
+                    <ComboBox fx:id="fieldAddItem" prefHeight="23.0" prefWidth="135.0" GridPane.columnIndex="1" />
+                    <Label text="Quantity" GridPane.rowIndex="1" />
+                    <TextField fx:id="fieldAddNum" prefHeight="23.0" prefWidth="110.0" promptText="Num..." GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                    <Button graphicTextGap="2.0" mnemonicParsing="false" onAction="#btnAddItemOnAction" prefHeight="38.0" prefWidth="136.0" styleClass="button, success" text="Add Item" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+                </GridPane>
+         </bottom>
+        </BorderPane>
+
+           <TableView fx:id="tableStorePage" editable="true" layoutX="21.0" layoutY="375.0" prefHeight="288.0" prefWidth="500.0">
+               <columns>
+               <TableColumn prefWidth="126.0" text="Store Name">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="storeName" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="156.0" text="Item Name">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="itemName" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="70.0" text="Quantity">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="quantity" />
+                   </cellValueFactory>
+               </TableColumn>
+               </columns>
+           </TableView>
+           <Button graphicTextGap="2.0" layoutX="539.0" layoutY="623.0" mnemonicParsing="false" onAction="#btnAddOrderOnAction" prefHeight="40.0" prefWidth="101.0" styleClass="button, success" text="Add Order" />
+    </children>
+</AnchorPane>

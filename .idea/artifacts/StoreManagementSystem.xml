@@ -1,0 +1,40 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="StoreManagementSystem">
+    <output-path>$PROJECT_DIR$/out/artifacts/StoreManagementSystem</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="app.Main" />
+        <option name="description" value="this StoreManagementSystem" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="windowsIcon" value="$PROJECT_DIR$/a.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="StoreManagementSystem" />
+        <option name="vendor" value="xxx" />
+        <option name="version" value="1.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="StoreManagementSystem.jar">
+        <element id="module-output" name="StoreManagementSystem" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-base:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:win:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:11" />
+          <element id="library" level="project" name="sqlite-jdbc-3.31.1" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:win:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:11" />
+        </element>
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

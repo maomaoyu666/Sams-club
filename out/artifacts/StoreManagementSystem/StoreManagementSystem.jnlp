@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="StoreManagementSystem.jnlp">
+  <information>
+    <title>StoreManagementSystem</title>
+    <vendor>xxx</vendor>
+    <description>this StoreManagementSystem</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="StoreManagementSystem.jar" size="754133" download="eager" />
+    <jar href="lib\javafx-base-11-win.jar" size="750040" download="eager" />
+    <jar href="lib\javafx-base-11.jar" size="302" download="eager" />
+    <jar href="lib\javafx-controls-11-win.jar" size="2511103" download="eager" />
+    <jar href="lib\javafx-controls-11.jar" size="306" download="eager" />
+    <jar href="lib\javafx-fxml-11-win.jar" size="127394" download="eager" />
+    <jar href="lib\javafx-fxml-11.jar" size="302" download="eager" />
+    <jar href="lib\javafx-graphics-11-win.jar" size="6016908" download="eager" />
+    <jar href="lib\javafx-graphics-11.jar" size="306" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.31.1.jar" size="8368650" download="eager" />
+    <jar href="sqlite-jdbc-3.31.1.jar" size="8368650" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="app.Main"  name="StoreManagementSystem" />
+  <update check="background"/>
+</jnlp>
