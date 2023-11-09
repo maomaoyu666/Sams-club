@@ -3,7 +3,15 @@
     <output-path>$PROJECT_DIR$/out/artifacts/StoreManagementSystem_jar</output-path>
     <root id="archive" name="StoreManagementSystem.jar">
       <element id="module-output" name="StoreManagementSystem" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/sqlite-jdbc-3.31.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../work/apache-maven-3.6.3/maven-repository/org/openjfx/javafx-controls/11/javafx-controls-11-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../work/apache-maven-3.6.3/maven-repository/org/xerial/sqlite-jdbc/3.31.1/sqlite-jdbc-3.31.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../work/apache-maven-3.6.3/maven-repository/org/openjfx/javafx-fxml/11/javafx-fxml-11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../work/apache-maven-3.6.3/maven-repository/org/openjfx/javafx-controls/11/javafx-controls-11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../work/apache-maven-3.6.3/maven-repository/org/openjfx/javafx-graphics/11/javafx-graphics-11-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../work/apache-maven-3.6.3/maven-repository/org/openjfx/javafx-base/11/javafx-base-11-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../work/apache-maven-3.6.3/maven-repository/org/openjfx/javafx-graphics/11/javafx-graphics-11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../work/apache-maven-3.6.3/maven-repository/org/openjfx/javafx-fxml/11/javafx-fxml-11-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../work/apache-maven-3.6.3/maven-repository/org/openjfx/javafx-base/11/javafx-base-11.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
