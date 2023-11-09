@@ -42,7 +42,7 @@
             </GridPane>
         </center>
         <top>
-            <Text fx:id="viewItemName" strokeType="OUTSIDE" strokeWidth="0.0" text="Item Detail" BorderPane.alignment="CENTER_LEFT">
+            <Text fx:id="viewItemName" strokeType="OUTSIDE" strokeWidth="0.0" text="Inventory overview" BorderPane.alignment="CENTER_LEFT">
                 <font>
                     <Font size="24.0" />
                 </font>
